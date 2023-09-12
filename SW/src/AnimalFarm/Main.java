@@ -15,7 +15,7 @@ public class Main {
 		AnimalFarm farm = new AnimalFarm(sc.nextLine());
 
 		while (true) {
-			System.out.println("1.동물 추가\n2.동물 검색\n3.특정 동물 울음소리\n"
+			System.out.println("1.동물 d추가\n2.동물 검색\n3.특정 동물 울음소리\n"
 		+ "4.모든 동물 울음소리\n5.모든 동물 정보 출력\n6.끝내기");
 			menu = sc.nextInt();
 			if (menu == 1) {
